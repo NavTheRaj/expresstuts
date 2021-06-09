@@ -1,0 +1,21 @@
+###
+POST http://localhost:5000/api/members
+Content-Type: application/json
+
+{
+    "name":"Jake Smith",
+    "email":"jake@smith.com"
+}
+
+###
+PUT http://localhost:5000/api/members/67
+Content-Type: application/json
+
+{
+    "name":"Test Name",
+    "email":"test@name.com"
+}
+
+###
+DELETE  http://localhost:5000/api/members/67
+Content-Type: application/json
